@@ -1,0 +1,13 @@
+{
+	//	set a regex to include/ignore various file areas
+	areaTagsRegEx: ^(?!uploads).*$
+	maxFilesPerArea: 20
+	to: All
+	from: ENiGMA-Bot
+	//	moment.js compatible timestamp format
+	//	https://momentjs.com
+	tsFormat: ddd, MMMM Do, YYYY
+	subjectFormat: New files on {boardName}
+
+	//	See latest_files_announce_evt.js for details
+}
